@@ -1,4 +1,4 @@
-package com.vacuum
+package com.atis.vacuum
 
 import io.micronaut.runtime.Micronaut.*
 fun main(args: Array<String>) {

@@ -15,6 +15,13 @@ repositories {
 }
 
 dependencies {
+    annotationProcessor(platform("io.micronaut:micronaut-bom:3.3.2"))
+//    annotationProcessor("io.micronaut:micronaut-inject-java")
+//    annotationProcessor("io.micronaut:micronaut-validation")
+//    annotationProcessor("io.micronaut.data:micronaut-data-processor")
+//    annotationProcessor("io.micronaut.configuration:micronaut-openapi")
+    annotationProcessor("io.micronaut:micronaut-graal")
+
     kapt("io.micronaut:micronaut-http-validation")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-jackson-databind")

@@ -1,6 +1,11 @@
+#https://github.com/ilopmar/micronaut-testing-best-practices
+#https://docs.micronaut.io/latest/guide/index.html#environments
+#https://docs.micronaut.io/latest/guide/index.html#propertySource
 micronaut:
   application:
     name: mnVacuum
+  server:
+    port: ${SERVER_PORT:9090}
 netty:
   default:
     allocator:
